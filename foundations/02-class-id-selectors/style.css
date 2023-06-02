@@ -1,0 +1,16 @@
+.fontsize-24 {
+    font-size: 24px
+}
+.odd {
+    background-color: rgb(255,171,193);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.four {
+    background-color: rgb(181,255,171);
+}
+#two {
+    font-size: 36px;
+    color: rgb(87, 176,255);
+
+}

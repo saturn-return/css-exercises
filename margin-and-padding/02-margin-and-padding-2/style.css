@@ -5,8 +5,9 @@ body {
 }
 
 * {
-  border: 20px darkred;
+  border: 20px solid darkred;
 }
+
 .card {
   width: 450px;
   height: 225px;
@@ -19,6 +20,7 @@ body {
   background: #e3f4ff;
   padding: 10px;
   display: block;
+  margin: 10px;
   
 }
 

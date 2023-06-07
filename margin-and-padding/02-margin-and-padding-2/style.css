@@ -4,6 +4,9 @@ body {
   box-sizing: border-box;
 }
 
+* {
+  border: 20px darkred;
+}
 .card {
   width: 450px;
   height: 225px;
@@ -14,10 +17,7 @@ body {
 
 .title {
   background: #e3f4ff;
-  margin: 10px;
-  margin-top:10px;
   padding: 10px;
-  border: 10px;
   display: block;
   
 }

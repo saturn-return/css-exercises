@@ -5,8 +5,8 @@ body {
 }
 
 .card {
-  width: 500px;
-  height: 300px;
+  width: 400px;
+  height: 100px;
   background: #fff;
   margin: 16px auto;
   
@@ -27,6 +27,7 @@ body {
 .button-container {
   background: #e3f4ff;
   margin: 10px;
+  text-align: center
 }
 
 button {
@@ -34,4 +35,5 @@ button {
   border: 1px solid #eee;
   margin: 10px;
   display: block;
+  margin-left: 40px;
 }

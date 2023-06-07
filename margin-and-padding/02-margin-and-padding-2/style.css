@@ -5,14 +5,17 @@ body {
 }
 
 .card {
-  width: 800px;
+  width: 500px;
+  height: 600px;
   background: #fff;
   margin: 16px auto;
+  
 }
 
 .title {
   background: #e3f4ff;
-  margin: 10px
+  margin: 10px;
+  
 }
 
 .content {
@@ -28,4 +31,5 @@ button {
   background: white;
   border: 1px solid #eee;
   margin: 10px
+  display: block;
 }

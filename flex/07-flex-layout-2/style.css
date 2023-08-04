@@ -20,10 +20,63 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+
+.sidebar {
+  flex-basis: 300px;
+  flex-shrink: 0;
+  font-size: 24px;
+  padding: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.text {
+  padding: 32px;
+  display:flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  }
+
+.card {
+  width: 250px;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
 }

@@ -9,6 +9,10 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -41,8 +45,21 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  gap: 16px;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 16px;
 }
